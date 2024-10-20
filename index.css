@@ -1,0 +1,83 @@
+body
+{
+    background-color:#CCDEE7;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+div.maindiv
+{
+    height: 100vh;
+    margin: 0;
+
+    background-image: url("img_stork.png");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: calc(44vw);
+}
+
+div.context
+{
+    margin-left: 39vw;
+    margin-right: 1vw;
+    margin-top: 4vh;
+    margin-bottom: 0;
+    height: 70vh;
+    width: 60vw;
+}
+
+.context
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: min(2.5vh, 2.5vw);
+    text-align: center;
+    overflow: hidden;
+}
+
+div.socials
+{
+    margin-left: 39vw;
+    margin-right: 1vw;
+    margin-top: 0;
+    margin-bottom: 4vh;
+    height: 10vh;
+    width: 60vw;
+}
+
+img.button_social
+{
+    margin-left: calc(5vw - min(4vh, 4vw));
+    margin-right: calc(4.3vw - min(4vh, 4vw));
+    margin-top: calc(5vh - min(4vh, 4vw));
+    margin-bottom: calc(5vh - min(4vh, 4vw));
+    height: min(8vh, 8vw);
+    width: min(8vh, 8vw);
+    filter: brightness(0%);
+    transition: ease 0.3s;
+}
+
+img.button_social:hover
+{
+    filter: brightness(100%);
+}
+
+#title
+{
+    font-family: "Macondo", sans-serif;
+    font-size: 8vh;
+    font-weight: 900;
+    text-align: center;
+    margin: 0%;
+    color: darkblue;
+}
+
+#subtitle
+{
+    font-family: "Macondo", sans-serif;
+    font-size: 4vh;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    color: darkblue;
+}
