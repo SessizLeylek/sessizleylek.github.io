@@ -37,6 +37,8 @@ div.context
 
 div.socials
 {
+    display: flex;
+    overflow: hidden;
     margin-left: 39vw;
     margin-right: 1vw;
     margin-top: 0;
@@ -48,7 +50,7 @@ div.socials
 img.button_social
 {
     margin-left: calc(5vw - min(4vh, 4vw));
-    margin-right: calc(4.3vw - min(4vh, 4vw));
+    margin-right: calc(5vw - min(4vh, 4vw));
     margin-top: calc(5vh - min(4vh, 4vw));
     margin-bottom: calc(5vh - min(4vh, 4vw));
     height: min(8vh, 8vw);
