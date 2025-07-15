@@ -9,6 +9,7 @@ God of War Ragnarok
 God of War
 Ori and the Will of the Wisps
 Hollow Knight
+Deltarune
 Undertale
 The Witness
 Fez
@@ -26,7 +27,6 @@ Batman: Arkham Knight
 Ori and the Blind Forest: Definitive Edition
 A Hat in Time
 Finding Paradise
-Deltarune
 Inscryption
 Stephen's Sausage Roll
 Nine Sols
@@ -58,6 +58,7 @@ Hifi rush
 Slime Rancher
 Titanfall 2
 Chicory: A Colorful Tale
+Patrick's Parabox
 ElecHead
 A Short Hike
 Webbed
