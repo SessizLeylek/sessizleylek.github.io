@@ -12,15 +12,27 @@
     <section class="header panel darker" id="header">
         <a href="#">Kürşat Kuyumcu</a>
         <div class="max-grow"></div>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#works">Creative Works</a>
-        <a href="#blogs">Blog Posts</a>
-        <a href="#contact">Contact</a>
+        <a id="nav-portfl" href="#portfolio">Portfolio</a>
+        <a id="nav-cworks" href="#works">Creative Works</a>
+        <a id="nav-bposts" href="#blogs">Blog Posts</a>
+        <a id="nav-contct" href="#contact">Contact</a>
     </section>
     <section class="content panel darker">
-        <p style="text-align:center;">PAGE IS NOT LOADED YET!</p>
+        <img src="res/loading.gif" style="margin:10vw;height:20vw; object-fit:contain;">
     </section>
+
+    <!-- Language Selector -->
+    <div id="lang-selector">
+    <img id="current-flag" src="res/flags/en.png" alt="Current language">
+    <div id="flag-menu">
+        <img src="res/flags/en.png" alt="English" data-lang="en">
+        <img src="res/flags/tr.png" alt="Turkish" data-lang="tr">
+        <img src="res/flags/ru.png" alt="Russian" data-lang="ru">
+    </div>
+    </div>
 </body>
+<script src="dictionary.js"></script>
+<script src="localization.js"></script>
 <script src="hashchange-manager.js"></script>
 
 </html>

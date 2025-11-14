@@ -86,3 +86,43 @@ section.header a:hover::after {
 .growing-button:hover {
     transform: scale(1.05);
 }
+
+/* Language select */
+#lang-selector {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+/* Single flag button */
+#current-flag {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+/* Dropdown menu */
+#flag-menu {
+    position: absolute;
+    bottom: 50px;
+    /* above the button */
+    right: 0;
+    display: none;
+    flex-direction: column;
+    gap: 8px;
+    background: white;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#flag-menu img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}

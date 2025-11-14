@@ -13,30 +13,40 @@ const otherAccounts = {
     "youtube": "https://www.youtube.com/@kursatkuyumcu",
 };
 
-const contentTemplate = `
+const contentTemplate = () => `
 <div>
-    <h1 style="text-align: center; color: white;">Contact</h1>
-    <div style="display:flex; flex-direction:row; justify-content:center; height: 15vh;">
+    <h1 style="text-align: center; color: white;">${translate("nav_contact")}</h1>
+    <div style="display:flex; flex-direction:row; justify-content:center; height: 8vw;">
     ${listButtons(contactButtons)}
     </div>
 
-    <h2 style="text-align: center; color: white;">Other Accounts</h2>
-    <div style="display:flex; flex-direction:row; justify-content:center; height: 15vh;">
+    <h2 style="text-align: center; color: white;">${translate("other_accounts")}</h2>
+    <div style="display:flex; flex-direction:row; justify-content:center; height: 8vw;">
     ${listButtons(otherAccounts)}
     </div>
 
-    <h2 style="text-align: center; color: white;">Also Check Out This Game I Released</h2>    
-    <div style="display:flex; flex-direction:row; justify-content:center; height: 15vh;">
-    <iframe src="https://store.steampowered.com/widget/3277450/" 
+    <h2 style="text-align: center; color: white;">${translate("check_out_game")}</h2>    
+    <div style="display:flex; flex-direction:row; justify-content:center; height: 8vw;">
+    <iframe src="https://store.steampowered.com/widget/3277450?l=${translate("l")}" 
         frameborder="0" width="646" height="190">
     </iframe>
     </div>
 </div>
 `;
 
-function onContactHash(subQuery) {
-    contentRef.innerHTML = contentTemplate;
-    document.title = "Kürşat Kuyumcu - Contact";
+function localizeContact() {
+    contentRef.innerHTML = contentTemplate();
+    document.title = `Kürşat Kuyumcu - ${translate("nav_contact")}`;
 }
 
-pushHashFunctionsToMap("contact", new HashFunctions(onContactHash));
+function onContactEnter(subQueries) {
+    localizeContact();
+    addLangChangeCallback(localizeContact);
+}
+
+function onContactExit(subQueries) {
+    removeLangChangeCallback(localizeContact);
+    console.log("contact exit");
+}
+
+pushHashFunctionsToMap("contact", new HashFunctions(onContactEnter, onContactExit));

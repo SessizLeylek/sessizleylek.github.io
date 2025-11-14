@@ -12,30 +12,29 @@ const includedScripts = {};
 const hashResponseMap = {};
 var currentHashId = "undefined";
 
-function onHashChange(id, subQuery) {
+function onHashChange(id, subQueries) {
     const responseFunctions = hashResponseMap[id];
-
     if (!responseFunctions) {
         console.warn(`Hash Section ${id} Couldn't Found!`);
         return;
     }
-
-    const fn = currentHashId === id
-        ? responseFunctions.onQueryChangeFunc
-        : responseFunctions.onExitFunc;
-
-    fn?.(subQuery);
-
-    responseFunctions.onEnterFunc?.(subQuery);
-
+    
+    const prevResponseFunctions = hashResponseMap[currentHashId];
+    if (prevResponseFunctions) {
+        const fn = (currentHashId == id ? 
+            prevResponseFunctions.onQueryChangeFunc : prevResponseFunctions.onExitFunc);
+            fn?.(subQueries);
+    }
+    
+        
+    responseFunctions.onEnterFunc?.(subQueries);
     currentHashId = id;
 }
 
 function checkHashChange() {
     const id = location.hash.substring(1) || "";
-    const sepIndex = id.indexOf("-");
-    const hashParts = sepIndex > -1 ? [id.slice(0, sepIndex), id.slice(sepIndex + 1)] : [id, ""];
-    onHashChange(hashParts[0], hashParts[1] || "");
+    const hashParts = id.split("-")
+    onHashChange(hashParts[0], hashParts.slice(1));
 }
 
 window.addEventListener("load", checkHashChange);
@@ -72,11 +71,21 @@ function removeScript(scriptName) {
     delete includedScripts[scriptName];
 }
 
-function onReturnHomeHash(subQuery) {
-    contentRef.innerHTML = "<p>Home under construction!</p>";
-    document.title = "Kürşat Kuyumcu - Home";
+function localizeHome() {
+    document.title = `Kürşat Kuyumcu - ${translate("homepage")}`;
 }
 
-pushHashFunctionsToMap("", new HashFunctions(onReturnHomeHash));
+function onHomeEnter(subQueries) {
+    localizeHome();
+    contentRef.style.visibility = "hidden";
+    addLangChangeCallback(localizeHome);
+}
+
+function onHomeExit(subQueries) {
+    contentRef.style.visibility = "visible";
+    removeLangChangeCallback(localizeHome);
+}
+
+pushHashFunctionsToMap("", new HashFunctions(onHomeEnter, onHomeExit));
 
 addScript("contact");
