@@ -4,6 +4,7 @@ html {
 
 body {
     background-color: #00A2E8;
+    color: white;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -76,4 +77,12 @@ section.header a:hover::after {
 
 .max-grow {
     flex: 1 1 auto;
+}
+
+.growing-button {
+    transition: transform 0.15s ease-out;
+}
+
+.growing-button:hover {
+    transform: scale(1.05);
 }
