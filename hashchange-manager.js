@@ -1,34 +1,37 @@
 const contentRef = document.querySelector("section.content");
 
-class HashFunctions {
-    constructor(onEnterFunc, onExitFunc = null, onQueryChangeFunc = null) {
-        this.onEnterFunc = onEnterFunc;
-        this.onExitFunc = onExitFunc;
-        this.onQueryChangeFunc = onQueryChangeFunc;
-    }
+class HashPage {
+    hashId = "";
+
+    onEnter(subQueries) {}
+    onExit(subQueries) {}
+    onQueryChange(subQueries) {}
 }
 
 const includedScripts = {};
-const hashResponseMap = {};
-var currentHashId = "undefined";
+const hashPageMap = {};
+var currentHashPage = null;
 
 function onHashChange(id, subQueries) {
-    const responseFunctions = hashResponseMap[id];
-    if (!responseFunctions) {
+    if (!(id in hashPageMap)) {
         console.warn(`Hash Section ${id} Couldn't Found!`);
         return;
     }
-    
-    const prevResponseFunctions = hashResponseMap[currentHashId];
-    if (prevResponseFunctions) {
-        const fn = (currentHashId == id ? 
-            prevResponseFunctions.onQueryChangeFunc : prevResponseFunctions.onExitFunc);
-            fn?.(subQueries);
+
+    if (currentHashPage != null) {
+        if (currentHashPage.hashId == id) {
+            currentHashPage.onQueryChange(subQueries);
+            return;
+        }
+        else {
+            currentHashPage.onExit(subQueries);
+        }
     }
-    
-        
-    responseFunctions.onEnterFunc?.(subQueries);
-    currentHashId = id;
+
+    const newHashPage = new hashPageMap[id]();
+    newHashPage.hashId = id;
+    newHashPage.onEnter?.(subQueries);
+    currentHashPage = newHashPage;
 }
 
 function checkHashChange() {
@@ -40,11 +43,11 @@ function checkHashChange() {
 window.addEventListener("load", checkHashChange);
 window.addEventListener("hashchange", checkHashChange);
 
-function pushHashFunctionsToMap(id, hashFuncs) {
-    if (!(id in hashResponseMap)) {
-        hashResponseMap[id] = hashFuncs;
+function pushHashPageToMap(id, hashPageClass) {
+    if (!(id in hashPageMap)) {
+        hashPageMap[id] = hashPageClass;
     } else {
-        console.warn(`Hash Response ${id} is already in the map!`);
+        console.warn(`Hash Page ${id} is already in the map!`);
     }
 }
 
@@ -71,21 +74,5 @@ function removeScript(scriptName) {
     delete includedScripts[scriptName];
 }
 
-function localizeHome() {
-    document.title = `Kürşat Kuyumcu - ${translate("homepage")}`;
-}
-
-function onHomeEnter(subQueries) {
-    localizeHome();
-    contentRef.style.visibility = "hidden";
-    addLangChangeCallback(localizeHome);
-}
-
-function onHomeExit(subQueries) {
-    contentRef.style.visibility = "visible";
-    removeLangChangeCallback(localizeHome);
-}
-
-pushHashFunctionsToMap("", new HashFunctions(onHomeEnter, onHomeExit));
-
+addScript("home");
 addScript("contact");

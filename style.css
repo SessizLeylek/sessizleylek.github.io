@@ -87,6 +87,16 @@ section.header a:hover::after {
     transform: scale(1.05);
 }
 
+#loading-icon {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 360px;
+    height: 360px;
+    z-index: 1000;
+}
+
 /* Language select */
 #lang-selector {
     position: fixed;
