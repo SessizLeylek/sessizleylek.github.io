@@ -38,15 +38,19 @@ a {
 
 .panel {
     border-radius: 1vw;
+    padding: 1vw;
+}
+
+section.panel {
     backdrop-filter: blur(10px);
 }
 
-.brighter {
-    backdrop-filter: brightness(110%);
+.panel.brighter {
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
-.darker {
-    backdrop-filter: brightness(91%);
+.panel.darker {
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 section.header a {

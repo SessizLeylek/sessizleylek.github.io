@@ -75,4 +75,5 @@ function removeScript(scriptName) {
 }
 
 addScript("home");
+addScript("portfolio");
 addScript("contact");

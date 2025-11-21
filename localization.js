@@ -21,7 +21,13 @@ function removeLangChangeCallback(callback) {
 
 currentFlag.src = `res/flags/${lang}.png`;
 
-const translate = (key) => dictionary[key][lang];
+const translate = (key) => {
+  const fallback = `#!# ${key} #!#`;
+  const translationList = dictionary[key];
+  if (!translationList) return fallback;
+
+  return translationList[lang] || translationList["en"] || fallback;
+};
 
 // Toggle menu
 currentFlag.addEventListener('click', () => {
