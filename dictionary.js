@@ -27,6 +27,12 @@ const dictionary = {
         "tr": "İletişim",
         "ru": "Контакты"
     },
+
+    "invalid_page": {
+        "en": "Invalid Page",
+        "tr": "Geçersiz Sayfa",
+        "ru": "Недопустимая Страница"
+    },
     
     // HOME PAGE
     "homepage": {

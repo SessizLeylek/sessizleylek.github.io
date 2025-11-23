@@ -8,16 +8,17 @@ class HashPage {
     onQueryChange(subQueries) {}
 }
 
+class InvalidHashPage extends HashPage {
+    onEnter(subQueries) {
+        contentRef.innerHTML = `<h1 style="text-align:center;">${translate("invalid_page")}</h1>`;
+    }
+}
+
 const includedScripts = {};
 const hashPageMap = {};
 var currentHashPage = null;
 
 function onHashChange(id, subQueries) {
-    if (!(id in hashPageMap)) {
-        console.warn(`Hash Section ${id} Couldn't Found!`);
-        return;
-    }
-
     if (currentHashPage != null) {
         if (currentHashPage.hashId == id) {
             currentHashPage.onQueryChange(subQueries);
@@ -28,7 +29,7 @@ function onHashChange(id, subQueries) {
         }
     }
 
-    const newHashPage = new hashPageMap[id]();
+    const newHashPage = (id in hashPageMap) ? new hashPageMap[id]() : new InvalidHashPage();
     newHashPage.hashId = id;
     newHashPage.onEnter?.(subQueries);
     currentHashPage = newHashPage;
