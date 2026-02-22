@@ -5,8 +5,8 @@ Celeste
 Hollow Knight: Silksong
 Hollow Knight
 Chants of Sennaar
-Red Dead Redemption 2
 The Talos Principle II
+Red Dead Redemption 2
 God of War Ragnarok
 God of War
 Ori and the Will of the Wisps
@@ -35,17 +35,19 @@ Detroit: Become Human
 Figment
 A Monster's Expedition
 Braid: Anniversary Edition
+Minecraft
 Death's Door
 Neon White
 Inside
 Katana Zero
-Shovel Knight: Treasure Trove
-Minecraft
 Metal Gear Rising: Revengeance
+Dispatch
+Shovel Knight: Treasure Trove
 Isles of Sea and Sky
 The Forgotten City
 Balatro
 Will You Snail?
+Ultrakill
 To the Moon
 What Remains of Edith Finch
 Portal
@@ -63,16 +65,17 @@ Titanfall 2
 Chicory: A Colorful Tale
 Patrick's Parabox
 ElecHead
+Half-Life
 A Short Hike
 Webbed
 OneShot
 Journey
 The End is Nigh
-Half-Life
 Pikuniku
 Cities: Skylines
 Human Resource Machine
 The Long Dark
+Grand Theft Auto V
 Stardew Valley
 Unravel
 Grim Fandango Remastered
@@ -81,9 +84,14 @@ Plants vs. Zombies
 Carrion
 Cocoon
 Cut the rope
-I Am Your Beast
 The Hex
 Toem
 Transport Fever 2
 Doki Doki
+Gunpoint
+I Am Your Beast
+Gato Roboto
+Orbo's Odyssey
+FAR: Lone Sails
 Leap Year
+Leila

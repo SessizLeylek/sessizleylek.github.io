@@ -75,6 +75,7 @@ function removeScript(scriptName) {
     delete includedScripts[scriptName];
 }
 
+addScript("background");
 addScript("home");
 addScript("portfolio");
 addScript("contact");
