@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: #00A2E8;
+    background-color: #0240b1;
     color: white;
     display: flex;
     flex-direction: column;
@@ -25,6 +25,16 @@ section.content {
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
+}
+
+::selection {
+    background: white;
+    color: #0240b1;
+}
+
+::placeholder { 
+  color: white; 
+  opacity: 0.5;    
 }
 
 p {

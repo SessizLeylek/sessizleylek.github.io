@@ -9,9 +9,9 @@ let next = v2;
 // Initial source
 current.src = idlePath;
 
-// Parallax scroll (50% speed)
+// Parallax scroll
 window.addEventListener('scroll', () => {
-    const offset = window.scrollY * 0.5;
+    const offset = window.scrollY * -0.3;
     v1.style.transform = `translateY(${offset}px)`;
     v2.style.transform = `translateY(${offset}px)`;
 });

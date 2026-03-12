@@ -1,0 +1,14 @@
+{
+    "dream_game_engine": {
+        "en": {
+            "title": "Dream Game Engine",
+            "description": "This document is prepared to convey my own demands for a game engine and to be a future reference if i decided to make my own game engine."
+        },
+        "tags": [
+            "software",
+            "gamedev"
+        ],
+        "file": "dream_game_engine",
+        "date": "2026-03-13"
+    }
+}

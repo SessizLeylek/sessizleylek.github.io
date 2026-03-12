@@ -78,4 +78,5 @@ function removeScript(scriptName) {
 addScript("background");
 addScript("home");
 addScript("portfolio");
+addScript("blogs");
 addScript("contact");

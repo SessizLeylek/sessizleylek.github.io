@@ -75,6 +75,35 @@ const dictionary = {
                 архитектур и инструментов. В настоящее время я завершаю получение степени бакалавра и стремлюсь внести свои технические навыки в амбициозную профессиональную команду."
     },
 
+    // BLOGS PAGE
+
+    "search_placeholder": {
+        "en": "Search...",
+        "tr": "Ara...",
+    },
+    "read_more": {
+        "en": "Read More",
+        "tr": "Devamını Oku",
+    },
+    "blog_no_lang_support": {
+        "en": "This blog post is not available in English.",
+        "tr": "Bu blog yazısı Türkçe olarak mevcut değil.",
+        "ru": "Этот блог-пост недоступен на русском языке."
+    },
+    "blog_back": {
+        "en": "Back to Blogs",
+        "tr": "Bloglara Geri Dön",
+    },
+
+    "software": {
+        "en": "Software",
+        "tr": "Yazılım",
+    },
+    "gamedev": {
+        "en": "Game Development",
+        "tr": "Oyun Geliştirme",
+    },
+
     // CONTACT PAGE
     "other_accounts": {
         "en": "Other Accounts",
