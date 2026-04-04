@@ -1,0 +1,78 @@
+{
+    "balkent": {
+        "en": {
+            "title": "Balkent",
+            "description": "Balkent is a Minecaft creative world I'm building since 2023. It is a fictional city in an alternate timeline that I occasionally work on. The city is located to the north shore of Issyk-Kul. I continue building this city as a way to quiet my mind. Actually i would hate using games as a tool of escapism but building really calms the mind."
+        },
+        "tr": {
+            "title": "Balkent",
+            "description": "Balkent, 2023'ten beri inşa ettiğim bir Minecraft yaratıcı dünyası. Kendisi arada sırada üzerinde çalıştığım alternatif bir zaman çizelgesinde kurgusal bir şehir. Şehir Issyk-Kul'un kuzey kıyısında yer almaktadır. Bu şehri inşa etmeye devam ediyorum çünkü bu zihnimi sakinleştirmenin bir yolu. Aslında oyunları kaçış aracı olarak kullanmayı sevmem ama inşa etmek gerçekten zihni sakinleştiriyor."
+        }
+    },
+    "forgotten_flock": {
+        "link": "https://www.youtube.com/playlist?list=PLdU4j9U8M6ed1fM1_gBibmIAXvlMQB74c",
+        "en": {
+            "title": "The Forgotten Flock",
+            "description": "Album of the musics I composed during 11th-12th grade. I have been composing musics for my games during 2019-2022 period and this the last album of that period."
+        },
+        "tr": {
+            "title": "The Forgotten Flock",
+            "description": "11. ve 12. sınıflarda bestelediğim müziklerin albümü. 2019-2022 yılları arasında oyunlarım için müzikler besteledim ve bu da o dönemin son albümü."
+        }
+    },
+    "curses_to_the_flame_of_the_kingdom": {
+        "link": "https://www.youtube.com/playlist?list=PLdU4j9U8M6eceWLKNN25pDaLFvqR4POhG",
+        "en": {
+            "title": "Curses to the Flame of the Kingdom",
+            "description": "Album of the musics I composed for my game Kozomo: The Smoldering Ember when I was in 12th grade. At that time the the codename for the game was 'The Flame of the Kingdom'. Some of the musics in this album are not used in the game in its 2025 release."
+        },
+        "tr": {
+            "title": "Curses to the Flame of the Kingdom",
+            "description": "12. sınıfta oyunum Kozomo: The Smoldering Ember için bestelediğim müziklerin albümü. O zamanlar oyunun kod adı 'The Flame of the Kingdom' idi. Bu albümdeki bazı müzikler 2025 yılında yayınlanan oyununda kullanılmamıştır."
+        }
+    },
+    "vacant_facility_1": {
+        "link": "https://www.youtube.com/playlist?list=PLdU4j9U8M6ee_i9fSG7yLla6SsjPiZgWa",
+        "en": {
+            "title": "Sounds of the Vacant Facility (Volume 1)",
+            "description": "Album of the musics I composed for my game A.P.I.S. Project: Duplication when I was in 11th grade. I abandoned the game in 2021 and released it as it was after some tweaks in 2023. That's why the album is divided into two volumes, where the only the first volume contains the musics that are used in the game."
+        },
+        "tr": {
+            "title": "Sounds of the Vacant Facility (Volume 1)",
+            "description": "11. sınıfta oyunum A.P.I.S. Project: Duplication için bestelediğim müziklerin albümü. Oyunu 2021 yılında terk ettim ve 2023 yılında bazı düzenlemeler yaptıktan sonra olduğu gibi yayınladım. Bu yüzden albüm iki cilt halinde bölünmüştür, yalnızca ilk ciltte oyunda kullanılan müzikler bulunmaktadır."
+        }
+    },
+    "vacant_facility_2": {
+        "link": "https://www.youtube.com/playlist?list=PLdU4j9U8M6eerjO2JR-cIbmaq_eijqdRD",
+        "en": {
+            "title": "Sounds of the Vacant Facility (Volume 2)",
+            "description": "Album of the musics I composed for my game A.P.I.S. Project: Duplication when I was in 11th grade. I abandoned the game in 2021 and released it as it was after some tweaks in 2023. That's why the album is divided into two volumes, where the second volume contains the musics that couldn't made it into the game."
+        },
+        "tr": {
+            "title": "Sounds of the Vacant Facility (Volume 2)",
+            "description": "11. sınıfta oyunum A.P.I.S. Project: Duplication için bestelediğim müziklerin albümü. Oyunu 2021 yılında terk ettim ve 2023 yılında bazı düzenlemeler yaptıktan sonra olduğu gibi yayınladım. Bu yüzden albüm iki cilt halinde yayınlandı; ikinci ciltte oyuna dahil edilemeyen müzikler yer alıyor."
+        }
+    },
+    "drowning_in_lmms": {
+        "link": "https://www.youtube.com/playlist?list=PLdU4j9U8M6efKDTHGfMZ2qNUhO3QotL7a",
+        "en": {
+            "title": "Drowning in LMMS",
+            "description": "Album of the musics I composed during early months of pandemic while I try to learn using LMMS. I have been composing musics for my games during 2019-2022 period and this is the second album of that period."
+        },
+        "tr": {
+            "title": "Drowning in LMMS",
+            "description": "Pandeminin ilk aylarında LMMS kullanmayı öğrenmeye çalışırken bestelediğim müziklerin albümü. 2019-2022 yılları arasında oyunlarım için müzikler besteledim ve bu da o dönemin ikinci albümü."
+        }
+    },
+    "horrible_musics": {
+        "link": "https://www.youtube.com/playlist?list=PLdU4j9U8M6eeyCv9SXejKGrtQRTr--N8P",
+        "en": {
+            "title": "Horrible Musics",
+            "description": "Album of the musics I composed during 10th grade. I was quite insecure about the quality of these musics I made with Bosca Ceoil at that time so I named it this way. I have been composing musics for my games during 2019-2022 period and this is the first album of that period."
+        },
+        "tr": {
+            "title": "Horrible Musics",
+            "description": "10. sınıfta bestelediğim müziklerin albümü. O zamanlar Bosca Ceoil ile yaptığım bu müziklerin kalitesi konusunda oldukça güvensizdim, bu yüzden albüme bu ismi verdim. 2019-2022 yılları arasında oyunlarım için müzikler besteledim ve bu da o dönemin ilk albümü."
+        }
+    }
+}
