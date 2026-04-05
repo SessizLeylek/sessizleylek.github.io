@@ -40,8 +40,8 @@ class CreativeWorksHashPage extends HashPage {
     renderCreativeWorkEntry(id, workData, address) {
         return `<div class="panel brighter growing-button" style="width:60vw; margin:1vw;">
         <a href="${address.relative ? `#works-${id}` : address.address}" target="${address.relative ? "_self" : "_blank"}" style="text-decoration: none; color: inherit;">
-        <div style="display:flex; flex-direction:row; align-items:stretch;">
-        <img src="works/${id}/cover.jpg" alt="Cover Image" style="height:auto; max-width:25vh; margin-right:1vw; border-radius:1vw; object-fit:cover;">
+        <div style="display:flex; flex-direction:row; align-items:center;">
+        <img src="works/${id}/cover.jpg" alt="Cover Image" style="max-height:10vw; max-width:10vw; margin-right:1vw; border-radius:1vw; object-fit:cover;">
         <div>
         <h2 >${workData["title"]}</h2>
         <p style="height:auto;">${workData["description"]}</p>
@@ -69,9 +69,7 @@ class CreativeWorksHashPage extends HashPage {
             .then(works => {
                 Object.keys(works).forEach(key => {
                     const entry = works[key];
-                    const selectedLang = entry.hasOwnProperty(lang) ? lang :
-                        entry.hasOwnProperty("en") ? "en" :
-                            Object.keys(entry).find(k => k !== "tags");
+                    const selectedLang = getLanguageFromObject(entry, ["link"]);
                     const workData = entry[selectedLang];
                     const workLink = entry.hasOwnProperty("link") ? {relative: false, address: entry["link"]} : {relative: true};
                     const workElement = document.createElement("div")
@@ -91,7 +89,7 @@ class CreativeWorksHashPage extends HashPage {
 
     localizeCreativeWorkList() {
         this.workListElements.forEach(el => {
-            const workData = el.entry[lang] || el.entry["en"] || el.entry[Object.keys(el.entry).find(k => k !== "tags")];
+            const workData = el.entry[getLanguageFromObject(el.entry, ["link"])];
             el.element.innerHTML = this.renderCreativeWorkEntry(el.id, workData, el.link); // Re-render with localized tags
         });
 
@@ -125,12 +123,46 @@ class CreativeWorksHashPage extends HashPage {
         });
     }
 
+    async getWorkTitleById(id) {
+        const response = await fetch("works/works.json");
+        const works = await response.json();
+        const entry = works[id];
+        const selectedLang = getLanguageFromObject(entry, ["link"]);
+        const workData = entry[selectedLang];
+        console.log(entry, selectedLang);
+        return workData["title"];
+    }
+
     createCreativeWork(id) {
-        contentRef.innerHTML = ``;
+        contentRef.innerHTML = `
+        <div style="display:flex; flex-direction:row;">
+        <h2 id="wrk-page-title" style="margin-right:auto;"> </h2>
+        <a href="#works"><h2 id="wrk-back">${translate("back_to_works")}</h2></a>
+        </div>
+        <div id="wrk-frame" style="width:100%; height:auto; border:none; font-size:150%"></div>`;
+
+        this.workPageBackButton = contentRef.querySelector("#wrk-back");
+        this.workPageTitle = contentRef.querySelector("#wrk-page-title");
+        this.workFrame = contentRef.querySelector("#wrk-frame");
     }
 
     localizeCreativeWork(id) {
-    
+        this.workPageBackButton.textContent = translate("back_to_works");
+        this.getWorkTitleById(id).then(title => {
+            this.workPageTitle.textContent = title;
+        });
+
+        fetch(`works/${id}/${lang}.html`)
+            .then(response => {
+                    if (response.ok) return response;
+                    
+                    console.warn(`Localized version not found for ${lang}, falling back to English.`);
+                    return fetch(`works/${id}/en.html`);
+                })
+            .then(response => response.text())
+            .then(html => {
+                this.workFrame.innerHTML = html;
+            });
     }
 
 }

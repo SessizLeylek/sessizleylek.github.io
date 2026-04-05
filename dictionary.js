@@ -75,12 +75,18 @@ const dictionary = {
                 архитектур и инструментов. В настоящее время я завершаю получение степени бакалавра и стремлюсь внести свои технические навыки в амбициозную профессиональную команду."
     },
 
-    // BLOGS PAGE
-
     "search_placeholder": {
         "en": "Search...",
         "tr": "Ara...",
     },
+
+    // CREATIVE WORKS PAGE
+    "back_to_works": {
+        "en": "Back to Creative Works",
+        "tr": "Yaratıcı İşlere Geri Dön",
+    },
+
+    // BLOGS PAGE
     "read_more": {
         "en": "Read More",
         "tr": "Devamını Oku",

@@ -64,5 +64,12 @@ function localizeNavButtons() {
     contactButton.textContent = translate("nav_contact");
 }
 
+function getLanguageFromObject(obj, ignoreKeys = [], defaultLang = "en") {
+    const keys = Object.keys(obj).filter(k => !ignoreKeys.includes(k));
+    return obj.hasOwnProperty(lang) ? lang :
+        obj.hasOwnProperty(defaultLang) ? defaultLang :
+            keys.length > 0 ? keys[0] : null;
+}
+
 addLangChangeCallback(localizeNavButtons);
 localizeNavButtons();
