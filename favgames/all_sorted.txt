@@ -42,6 +42,7 @@ Inside
 Katana Zero
 Metal Gear Rising: Revengeance
 Dispatch
+The Last Campfire
 Shovel Knight: Treasure Trove
 Isles of Sea and Sky
 The Forgotten City
@@ -77,6 +78,7 @@ Human Resource Machine
 The Long Dark
 Grand Theft Auto V
 Stardew Valley
+Sokobond
 Unravel
 Grim Fandango Remastered
 Webbed

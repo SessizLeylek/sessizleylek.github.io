@@ -53,12 +53,12 @@ document.addEventListener('click', e => {
 });
 
 function localizeNavButtons() {
-    const portfolioButton = document.getElementById("nav-portfl");
+    const aboutButton = document.getElementById("nav-about");
     const worksButton = document.getElementById("nav-cworks");
     const blogsButton = document.getElementById("nav-bposts");
     const contactButton = document.getElementById("nav-contct");
 
-    portfolioButton.textContent = translate("nav_portfolio");
+    aboutButton.textContent = translate("nav_about");
     worksButton.textContent = translate("nav_works");
     blogsButton.textContent = translate("nav_blogs");
     contactButton.textContent = translate("nav_contact");

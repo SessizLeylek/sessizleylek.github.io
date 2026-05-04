@@ -7,10 +7,10 @@ const dictionary = {
     },
 
     // NAVIGATION BUTTONS
-    "nav_portfolio": {
-        "en": "Portfolio",
-        "tr": "Portföy",
-        "ru": "Портфолио"
+    "nav_about": {
+        "en": "About Me",
+        "tr": "Hakkımda",
+        "ru": "Обо Мне"
     },
     "nav_works": {
         "en": "Creative Works",
@@ -41,38 +41,34 @@ const dictionary = {
         "ru": "Главная"
     },
 
-    // PORTFOLIO PAGE
-    "portfolio_headline": {
+    // ABOUT PAGE
+    "about_headline": {
         "en": "Game Developer — Undergraduate Student",
         "tr": "Oyun Geliştirici — Lisans Öğrencisi",
         "ru": "Разработчик Игр — Студент-Бакалавр"
     },
-    "portfolio_description": {
-        "en": "An undergraduate student and solo game developer with some industry experience in the field. Proficient across the \
-                full scope of game development work, including system design, custom tool creation, and robust gameplay implementation.",
-        "tr": "Alanında bir miktar sektör deneyimine sahip bir solo oyun geliştirici ve lisans öğrencisi. Sistem tasarımı, özel araç oluşturma ve \
-                sağlam oyun uygulaması dahil olmak üzere oyun geliştirme çalışmalarının tüm kapsamında yetkin.",
-        "ru": "Студент-бакалавр и соло-разработчик игр с некоторым опытом работы в этой области. Компетентен во всем спектре \
-                разработки игр, включая системный дизайн, создание пользовательских инструментов и надежную реализацию игрового процесса."
-    },
-    "about": {
-        "en": "About",
-        "tr": "Hakkımda",
-        "ru": "Обо Мне"
+    "about_description": {
+        "en": "I'm Kürşat Kuyumcu, $age years old game developer and also an undergraduate student studying AI and Data Engineering at Istanbul Technical University. \
+                I'm developing video games since around 2014-2015 and I made several games on my own and even published one of them on Steam.",
+        "tr": "Ben Kürşat Kuyumcu, $age yaşında bir oyun geliştiricisi ve aynı zamanda İstanbul Teknik Üniversitesi'nde Yapay Zeka ve Veri Mühendisliği okuyan bir lisans öğrencisiyim. \
+                2014-2015 yılı civarından beri video oyunları geliştiriyorum ve kendi başıma birkaç oyun yaptım, hatta birini Steam'de yayınladım.",
+        "ru": "Меня зовут Kursat Kuyumcu, мне $age лет а я разработчик игр и студент бакалавриата, изучающий ИИ и инженерию данных в Стамбульском техническом университете. \
+                Я занимаюсь разработкой видеоигр с 2014-2015 года, создал несколько игр самостоятельно и даже опубликовал одну из них в Steam."
     },
     "about_paragraph": {
-        "en": "I'm Kürşat Kuyumcu, a passionate game developer and also an undergraduate student studying AI and Data Engineering at Istanbul Technical University. \
-                I'm developing video games since 2015 and I made several games on my own and even published one of them on Steam. While I am capable of most aspects \
-                of game development work, I'm also highly interested in other fields like systems programming and writing efficient architectures and tools. \
-                I am currently completing my undergraduate degree and eager to contribute my technical skills to a aspiring professional team.",
-        "tr": "Ben Kürşat Kuyumcu, tutkulu bir oyun geliştiricisi ve aynı zamanda İstanbul Teknik Üniversitesi'nde Yapay Zeka ve Veri Mühendisliği okuyan bir lisans öğrencisiyim. \
-                2015 yılından beri video oyunları geliştiriyorum ve kendi başıma birkaç oyun yaptım, hatta birini Steam'de yayınladım. Oyun geliştirme çalışmalarının \
-                çoğu yönünde yetkin olmamın yanı sıra, sistem programlama ve verimli mimariler ve araçlar yazma gibi diğer alanlara da büyük ilgi duyuyorum. \
-                Şu anda lisans derecemi tamamlıyorum ve teknik yeteneklerimle, hevesli bir profesyonel ekibe katkıda bulunmak için sabırsızlanıyorum.",
-        "ru": "Меня зовут Kursat Kuyumcu, я увлеченный разработчик игр и студент бакалавриата, изучающий ИИ и инженерию данных в Стамбульском техническом университете. \
-                Я занимаюсь разработкой видеоигр с 2015 года, создал несколько игр самостоятельно и даже опубликовал одну из них в Steam. Хотя я способен работать в \
-                большинстве аспектов разработки игр, меня также очень интересуют и другие области, такие как системное программирование, а также разработка эффективных \
-                архитектур и инструментов. В настоящее время я завершаю получение степени бакалавра и стремлюсь внести свои технические навыки в амбициозную профессиональную команду."
+        "en": "I've dreamed of being a game developer since I was 9 years old, and in 5th grade, out of curiosity, I started learning programming with Java. \
+                After a while, I switched to Unity and started learning it by tinkering with random systems from time to time. Four years later, regretting \
+                constantly leaving the projects I started unfinished, I began participating in online game jams on itch.io and publishing the games I made there. \
+                Since then, I've made 25+ small games that I've published on itch.io. My first large-scale project, which I worked on in my senior year of high school, \
+                was published on Steam in 2025 after a 2-year gap that occured as I started university. Besides languages like C/C#, I've recently mostly been using \
+                Odin for programming. Although I'm not as experienced as I'm in gameplay programming, I'm also interested in game engine development and graphics \
+                programming. Apart from video games, I'm also very interested in railway systems and languages.",
+        "tr": "Oyun geliştirici olmayı 9 yaşından beri istiyordum ve 5. sınıftayken merak edip Java ile programlama öğrenmeye başladım. Bir süre sonra Unity'e geçtim \
+                ve ara sıra rastgele sistemleri kurcalayarak Unity'i öğrenmeye başladım. 4 yıl sonra başladığım sürekli projeleri yarım bırakmanın da verdiği pişmanlık ile \
+                itch.io üzerinden online game jamlere katılıp yaptığım oyunları orada yayınlamaya başladım. O zamandan beri itch.io üzerinde yayınladığım 25+ küçük oyun yaptım. \
+                Lise son sınıfta üzerinde uğraştığım ilk büyük çaplı projemi, üniversite başladığında araya giren 2 yıllık boşluğun ardından 2025 yılında Steam'de yayınladım. \
+                C/C# gibi dillerin yanında son zamanlarda genellikle programalama için Odin'i kullanıyorum. Oynanış programlama tecrübem kadar tecrübeli olmasam da ek olarak \
+                oyun motoru geliştirme ve grafik programlamaya da ilgiliyim. Video oyunları haricinde ayrıca demiryolu sistemleri ve dillere de çokça ilgim var."
     },
 
     "search_placeholder": {
