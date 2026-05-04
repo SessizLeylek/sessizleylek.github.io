@@ -59,8 +59,7 @@ function swap() {
 
 current.addEventListener('ended', swap);
 
-window.addEventListener("hashchange", () => {
-    
+function setBackgroundDarkness() {
     if (location.hash.trim().length == 0) {
         v1.classList.remove("darker");
         v2.classList.remove("darker");
@@ -68,4 +67,7 @@ window.addEventListener("hashchange", () => {
         v1.classList.add("darker");
         v2.classList.add("darker");
     }
-});
+}
+
+window.addEventListener("hashchange", setBackgroundDarkness);
+setBackgroundDarkness();
