@@ -58,3 +58,14 @@ function swap() {
 }
 
 current.addEventListener('ended', swap);
+
+window.addEventListener("hashchange", () => {
+    
+    if (location.hash.trim().length == 0) {
+        v1.classList.remove("darker");
+        v2.classList.remove("darker");
+    } else {
+        v1.classList.add("darker");
+        v2.classList.add("darker");
+    }
+});

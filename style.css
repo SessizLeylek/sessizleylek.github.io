@@ -63,6 +63,10 @@ section.panel {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
+video.darker {
+    filter: brightness(0.8);
+}
+
 section.header a {
     position: relative;
     text-decoration: none;
