@@ -36,6 +36,7 @@ Figment
 A Monster's Expedition
 Braid: Anniversary Edition
 Minecraft
+To the Moon
 Death's Door
 Neon White
 Inside
@@ -43,23 +44,24 @@ Katana Zero
 Metal Gear Rising: Revengeance
 Dispatch
 The Last Campfire
+Disco Elysium
 Shovel Knight: Treasure Trove
 Isles of Sea and Sky
 The Forgotten City
 Balatro
 Will You Snail?
 Ultrakill
-To the Moon
+Q.U.B.E. 2
+Yoku's Island Express
+Pizza Tower
+The Case of the Golden Idol
 What Remains of Edith Finch
 Portal
 Hotline Miami
 The Vanishing of Ethan Carter
 Batman: Arkham City
-Q.U.B.E. 2
-Yoku's Island Express
-Pizza Tower
-The Case of the Golden Idol
 The Rogue Prince of Persia
+Creaks
 Hifi rush
 Slime Rancher
 Titanfall 2
@@ -77,12 +79,15 @@ Cities: Skylines
 Human Resource Machine
 The Long Dark
 Grand Theft Auto V
+Just A To The Moon Series Beach Episode
+Impostor Factory
 Stardew Valley
 Sokobond
 Unravel
 Grim Fandango Remastered
-Webbed
 Plants vs. Zombies
+Before Your Eyes
+Webbed
 Carrion
 Cocoon
 Cut the rope
@@ -96,4 +101,6 @@ Gato Roboto
 Orbo's Odyssey
 FAR: Lone Sails
 Leap Year
+Stick It To The Man!
 Leila
+Escape Goat 2
