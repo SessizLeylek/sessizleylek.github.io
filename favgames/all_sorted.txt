@@ -5,9 +5,9 @@ Celeste
 Hollow Knight: Silksong
 Hollow Knight
 Chants of Sennaar
-The Talos Principle II
+The Talos Principle 2
 Red Dead Redemption 2
-God of War Ragnarok
+God of War: Ragnarök
 God of War
 Ori and the Will of the Wisps
 Deltarune
@@ -17,14 +17,14 @@ Fez
 Tunic
 Finding Paradise
 Animal Well
-Supraland: Six Inches Under
+Supraland Six Inches Under
 Return of the Obra Dinn
 Figment 2: Creed Valley
 Psychonauts
 Hades
 Psychonauts 2
 Half-Life 2
-Supraland: Complete Edition
+Supraland
 Batman: Arkham Knight
 Ori and the Blind Forest: Definitive Edition
 A Hat in Time
@@ -32,75 +32,250 @@ Inscryption
 Stephen's Sausage Roll
 Nine Sols
 Detroit: Become Human
-Figment
+Figment: Journey Into the Mind
 A Monster's Expedition
 Braid: Anniversary Edition
+Braid
 Minecraft
 To the Moon
 Death's Door
 Neon White
+Half-Life 2: Episode Two
 Inside
-Katana Zero
+Katana ZERO
 Metal Gear Rising: Revengeance
+The Stanley Parable: Ultra Deluxe
 Dispatch
 The Last Campfire
 Disco Elysium
-Shovel Knight: Treasure Trove
+Super Meat Boy
+Shovel Knight
 Isles of Sea and Sky
 The Forgotten City
 Balatro
 Will You Snail?
+Half-Life 2: Episode One
 Ultrakill
 Q.U.B.E. 2
+Black Mesa
 Yoku's Island Express
+BioShock
 Pizza Tower
 The Case of the Golden Idol
+Baba Is You
 What Remains of Edith Finch
 Portal
 Hotline Miami
 The Vanishing of Ethan Carter
-Batman: Arkham City
+Batman: Arkham City GOTY
 The Rogue Prince of Persia
 Creaks
-Hifi rush
+Hi-Fi Rush
 Slime Rancher
 Titanfall 2
 Chicory: A Colorful Tale
 Patrick's Parabox
 ElecHead
 Half-Life
+Limbo
 A Short Hike
+Guacamelee! Gold Edition
 Webbed
 OneShot
 Journey
-The End is Nigh
+A Plague Tale: Innocence
+Bastion
+The End Is Nigh
 Pikuniku
+Guacamelee!: Super Turbo Championship Edition
 Cities: Skylines
 Human Resource Machine
 The Long Dark
 Grand Theft Auto V
-Just A To The Moon Series Beach Episode
+Guacamelee! 2
+Manifold Garden
+Hotline Miami 2: Wrong Number
+Just A To the Moon Series Beach Episode
+Dishonored
+Doom Eternal
 Impostor Factory
 Stardew Valley
 Sokobond
 Unravel
-Grim Fandango Remastered
+Grim Fandango
 Plants vs. Zombies
+Rakuen
+Firewatch
+Hob
+Mosa Lina
+Mini Motorways
+Mini Metro
+Batman: Arkham Asylum GOTY
+BioShock 2
+The Swapper
 Before Your Eyes
 Webbed
 Carrion
 Cocoon
-Cut the rope
+Islands of Insight
+Plants vs. Zombies 2: It's About Time
+Snakebird Primer
+Ghostrunner
+Freeways
+Anomaly Agent
+Cut the Rope
 The Hex
+Crashlands
+Red Dead Redemption
+Cats and the Other Lives
 Toem
+A Good Snowman is Hard to Build
+Control
+FlatOut 2
+Minecraft Dungeons
+Understand
+Mind Over Magnet
+Heavy Rain
+Sensorium
+Myst
+Lone Fungus
+Mutazione
+Transistor
+Kingdom: New Lands
+Brothers: A Tale of Two Sons
+Turnip Boy Commits Tax Evasion
+VVVVVV
+Botany Manor
+ABZÛ
+Beholder
+Aperture Tag: The Paint Gun Testing Initiative
 Transport Fever 2
-Doki Doki
+Cuphead
+The Turing Test
+There Is No Game: Wrong Dimension
+Slime Rancher 2
+Dishonored 2
+Unravel Two
+Cut the Rope: Time Travel
+Pony Island
+The Pedestrian
+Moving Out 2
+HUE
+Half-Life: Blue Shift
+BioShock Infinite
+FlatOut
+Doki Doki Literature Club!
 Gunpoint
 I Am Your Beast
 Gato Roboto
+Full Throttle Remastered
+Axiom Verge
+Grand Theft Auto IV: The Complete Edition
+Have a Nice Death
+Devil May Cry 5
+Cities: Skylines II
 Orbo's Odyssey
+Dadish 2
+Half-Life: Opposing Force
+Frog Detective: The Entire Mystery
 FAR: Lone Sails
+Brütal Legend
+Little Nightmares II
+Little Nightmares
+FlatOut: Ultimate Carnage
+Content Warning
+Ape Out
 Leap Year
-Stick It To The Man!
+Stick it to The Man!
+Cut the Rope: Experiments
+Pyre
+Counter-Strike 2
+Dadish
+Octodad: Dadliest Catch
+League of Legends
+Day of the Tentacle
+High On Life
+Oddworld: New 'n' Tasty!
+Kingdom Come: Deliverance
+Lil Gator Game
+Storyteller
+Resident Evil 7: Biohazard
+Night in the Woods
+Team Fortress 2
+Deadlock
+Tobla - Divine Path
+Jusant
+Cosmic Express
+Noita
+Quake
+Cut the Rope: Magic
+Replicube
+Riverbond
+Remnants of Naezith
+Omno
+Cave Story
+Kine
+Fortnite
+Blue Prince
+Pudding Monsters
+Quantum Conundrum
+The Gardens Between
+A Story About My Uncle
+Bonfire Peaks
+Borderlands 2
+Thronefall
+Hitman
+The Binding of Isaac
+Ingression
+Haven Park
+Headlander
+Please Fix The Road
+Railway Empire 2
+GNOG
+Unpacking
+The Forest Quartet
+The Forest
+Pepper Grinder
+Dorfromantik
+The Textorcist: The Story of Ray Bibbia
+Enter the Gungeon
+Stacking
+Nioh: Complete Edition
+Mindustry
+Valorant
+Wandersong
+Can't Live Without Electricity
+Chronology
+Dice & Fold
+Crypt of the NecroDancer
+Dadish 3
+Sludge Life
+Alan Wake
+A Plague Tale: Requiem
+7 Billion Humans
+Hyperbolica
+Pseudoregalia
+TowerFall Ascension
+Stick Fight: The Game
+Heaven's Vault
 Leila
+Toki Tori 2+
+Toki Tori 3D
+Relicta
+Cut the Rope 2
+The Cave
+Once Alive
+Turnip Boy Robs a Bank
 Escape Goat 2
+Her Story
+The Bridge
+Haiku, the Robot
+World War Z
+Grapple Dog
+Flipping Death
+CAT & ONION
+Station to Station
+Seen
+Phogs!
+FlatOut 3: Chaos & Destruction
+Ball 3D: Soccer Online
