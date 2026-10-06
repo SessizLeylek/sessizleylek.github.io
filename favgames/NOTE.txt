@@ -1,3 +1,9 @@
+=== HLTB CLUSTERING ===
+5-Cluster (Best to Worst):
+15% 25% 25% 25% 10%
+
+
+===  FAIR CLUSTERS ===
 5-Cluster (Best to Worst):
 17% 29% 22% 19% 13%
 
