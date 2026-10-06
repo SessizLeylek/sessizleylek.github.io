@@ -79,7 +79,6 @@ ElecHead
 Half-Life
 Limbo
 A Short Hike
-Guacamelee! Gold Edition
 Webbed
 OneShot
 Journey
@@ -91,10 +90,8 @@ Guacamelee!: Super Turbo Championship Edition
 Cities: Skylines
 Human Resource Machine
 The Long Dark
-Grand Theft Auto V
 Guacamelee! 2
 Manifold Garden
-Hotline Miami 2: Wrong Number
 Just A To the Moon Series Beach Episode
 Dishonored
 Doom Eternal
@@ -113,6 +110,9 @@ Mini Metro
 Batman: Arkham Asylum GOTY
 BioShock 2
 The Swapper
+Grand Theft Auto V
+Hotline Miami 2: Wrong Number
+Guacamelee! Gold Edition
 Before Your Eyes
 Webbed
 Carrion
@@ -215,8 +215,6 @@ Remnants of Naezith
 Omno
 Cave Story
 Kine
-Fortnite
-Blue Prince
 Pudding Monsters
 Quantum Conundrum
 The Gardens Between
@@ -229,19 +227,19 @@ The Binding of Isaac
 Ingression
 Haven Park
 Headlander
-Please Fix The Road
 Railway Empire 2
 GNOG
-Unpacking
 The Forest Quartet
-The Forest
 Pepper Grinder
 Dorfromantik
 The Textorcist: The Story of Ray Bibbia
 Enter the Gungeon
+A Plague Tale: Requiem
 Stacking
 Nioh: Complete Edition
 Mindustry
+Fortnite
+Blue Prince
 Valorant
 Wandersong
 Can't Live Without Electricity
@@ -250,10 +248,12 @@ Dice & Fold
 Crypt of the NecroDancer
 Dadish 3
 Sludge Life
+Unpacking
+The Forest
 Alan Wake
-A Plague Tale: Requiem
 7 Billion Humans
 Hyperbolica
+Please Fix The Road
 Pseudoregalia
 TowerFall Ascension
 Stick Fight: The Game
