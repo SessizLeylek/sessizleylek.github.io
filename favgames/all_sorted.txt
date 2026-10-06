@@ -39,6 +39,7 @@ Braid
 Minecraft
 To the Moon
 Death's Door
+Disco Elysium
 Neon White
 Half-Life 2: Episode Two
 Inside
@@ -47,7 +48,6 @@ Metal Gear Rising: Revengeance
 The Stanley Parable: Ultra Deluxe
 Dispatch
 The Last Campfire
-Disco Elysium
 Super Meat Boy
 Shovel Knight
 Isles of Sea and Sky
